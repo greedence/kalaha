@@ -1,0 +1,16 @@
+----- Kalaha rules -----
+There are many variants of Kalaha, but we will use those that seem established in Sweden.
+The game board has two sides, one for each player, and on each side there are 6 small bowls. In addition, there are two larger bowls that act as nests. The bowl to the players right hand side is his or her nest. The 6 bowls that are closest to the player are his or hers.
+You prepare the game by placing exactly <k> beads in each small bowl. You can choose to start a game with <3, 4, 5 or 6> beads per bowl.
+The players take turns to draw. In each move, the player selects a small bowl from his or her side, picks up the beads from it and places a bead in each subsequent bowl in the direction of play until the beads run out. If the beads are enough for all small bowls you put a ball in your nest and continue counter clockwise over to the opponent's side. You never put a bead in your opponent's nest. If a player puts the last bead in his or her nest, he or she makes an extra move.
+The game board looks like this:
+                      Player 1 side
+      Cup number -->   1  2  3  4  5  6
+Player 1 nest -->  0                      0 <-- Player 2 nest
+                       6  5  4  3  2  1   <-- Cup number
+                      Player 2 side
+----- Victory conditions -----
+The game is over as a player no longer has beads to make a move with. The beads that remain in the opponent's small bowls are put in the opponent's nest. The one with the most beads in his or her nest wins the game. If both players have an equal amount of beads in their nests, the game is tied.
+----- Strategy simulation -----
+Strategy 1: Choose bowl at random with a linear distribution over non-empty bowls.
+Strategy 2: Choose the bowl with the most beads. If choise is ambigous, choose from bowls with the most beads at random with a linear distribution.
